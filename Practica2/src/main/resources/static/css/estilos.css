@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 sep. 2023, 20:37:30
+    Author     : Brandon
+*/
+
+/* Character Styles */
+
+
+body {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: black;
+}
+
+
+h1 {
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0px;
+    color: black;
+    margin: 0;
+}
+
+h2 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: black;
+    margin: 0 0 16px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0 0 24px 0;
+}
+
+.pagina-principal {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 40px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 150px auto 300px auto;
+}
+
+.elaborado {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: gray;
+    margin-bottom: 28px;
+}
+
+.featured-image {
+    margin-bottom: 28px;
+    display: block;
+}
+
+.logo {
+    max-width: 3%;
+    height: auto;;
+}
+
+
+.menu-link {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+
+
